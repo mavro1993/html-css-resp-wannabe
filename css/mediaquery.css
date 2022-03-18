@@ -1,0 +1,40 @@
+@media screen and (max-width: 420px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    padding: 15px;
+  }
+  .row{
+    width: 100%;
+    margin-top: 0;
+  }
+
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    width: 100%;
+  }
+  img{
+    height: 140px;
+    width: auto;
+    margin-top: 25px;
+  }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  #lezioni.container,
+  #why.container{
+    background-color: white;
+  }
+  
+
+}
